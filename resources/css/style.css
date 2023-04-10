@@ -1,0 +1,295 @@
+
+
+
+header {
+        position: fixed;
+        z-index: 100;
+        height: 5rem;
+        width: 100%;
+        border: 0.5px solid transparent;
+        background-color:rgb(234, 237, 239);
+}
+
+main {
+      position: relative;
+      top: 5rem;
+      margin-bottom: 5rem;
+}
+
+#navigation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logoNav {
+    margin-left: 0.7rem;
+}
+
+#logoNav img {
+    width: 3.5rem;
+    cursor: pointer;
+    height: auto;
+}
+
+#logoNav img :hover{
+    box-shadow: 0 0 20px rgba(72, 21, 123, 0.984);
+}
+
+#menuNav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#menu {
+    display: flex;
+    word-wrap: break-word;
+}
+
+#menu li {
+    margin-right: 3rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#menu li a{
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-
+}
+
+#menu li a:hover {
+    color:rgb(90, 79, 219);
+}
+
+#banner {
+    background-image: url("./pexels-nemuel-sereti.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    display: flex;
+}
+
+/*#bannerName {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    bottom: 40rem;
+    background-image: linear-gradient(black, transparent);
+    padding-left: 4rem;
+    padding-top: 14rem;
+} */
+
+#banner span {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    background-image: linear-gradient(black, transparent);
+    padding-left: 4rem;
+    padding-top: 14rem;
+    width: 100%;
+}
+
+.whitespace {
+    width: 100%;
+    height: 2rem;
+    color: white;
+}
+
+
+#aboutMe {
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title {
+    margin: 2rem;
+    text-align: start;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#myDescription {
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 200px rgba(48, 107, 250, 0.76);
+}    
+
+#myDescription p {
+    margin: 1.5rem;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.5rem;
+}
+
+#myImage img {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+#skills {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.logoskill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagecontainer {
+    height:5rem;
+    text-align:center;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
+    
+}
+
+.imagecontainer img {
+    height: 100%;
+}
+
+#projects {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.showprojects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    padding: 1rem;
+    box-shadow: 0 0 200px rgba(48, 107, 250, 0.76);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.felogo {
+    height: 10rem;
+    margin: 1rem;
+}
+
+.felogo img{
+    height: 100%
+}
+
+
+.tasks p {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Anek Tamil', sans-serif;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 0.2rem;
+   /* border: 0.09px solid rgb(211, 211, 214); */
+    padding: 0.5rem;
+}
+
+.tasks a span {
+    color: white; 
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.button {
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    background-color:rgba(51, 88, 176, 0.76);
+    padding: 0.5rem;
+}
+
+.button:hover {
+    background-color:rgb(235, 155, 17);
+}
+
+/* footer design */
+
+#footer {
+    width:100%;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftfooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: end;
+    padding: 1rem;
+}
+
+#rightfooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#leftfooter span {
+    color: white;
+   font-size: 1.5rem;
+   font-family: 'Bebas Neue', cursive;
+}
+
+#rightfooter a {
+    height: 3rem;
+}
+
+#rightfooter img {
+    height: 100%;
+}

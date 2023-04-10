@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/contactstyle.css" rel="stylesheet">
+    <link href="./resources/css/reset.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@500&display=swap" rel="stylesheet"> 
+    <title>Portfolio Project</title>
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <div id="logoNav">
+                <a href="./index.html"><img id= "logo" src="resources/images/logo.png"></a>   
+            </div>
+            <div id="menuNav">
+                <ul id="menu">
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./index.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="front">
+            <div id="fronttext">
+                <span>CONTACT ME</span>
+            </div>
+            <form action="example.html" method="POST">
+                <label for="email" style="color: white;margin-top: 1rem;font-family: 'Bebas Neue', cursive;font-size: 1.3rem;">Please enter your email</label>
+                <br>
+                <input id="email" type="text" name="useremail" placeholder="example.@mail.com">
+                <br>
+                <label for="subject" style="color: white;/*! font-family: sans-serif; */font-family: 'Bebas Neue', cursive;font-size: 1.3rem;">Please state the subject for contact</label>
+                <br>
+                <input id="subject" type="text" name="subject" placeholder="ex:Job opportunity">
+                <br>
+                <label for="contactmessage"></label>
+                <br>
+                <textarea id="contactmessage" name="contactmessage" rows="7" cols="40" placeholder="Write here">                    
+                </textarea> 
+                <br>
+                <input type="submit" value="SEND" style="font-family: 'Bebas Neue', cursive;" id="sendbutton">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="leftfooter">
+             <span id="contactinfo">Contacts</span>
+             <span class="footermail">+355 884 353 423</span>
+             <span  class="footermail">dimitarterziev19@gmail.com</span>     
+        </section>
+        <section id="rightfooter">
+             <a href="https://github.com/Terzo19"><img src="./resources/css/273178_github_icon.png"></a>
+             <a href="https://www.linkedin.com/in/dimitar-terziev-6736b81ab/"><img src="./resources/css/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930587_72.png"></a>
+        </section>
+    </footer>    
+</body>
+</html>

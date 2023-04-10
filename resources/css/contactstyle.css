@@ -1,0 +1,179 @@
+header {
+    position: fixed;
+    z-index: 100;
+    height: 5rem;
+    width: 100%;
+    border: 0.5px solid transparent;
+    background-color:rgb(234, 237, 239);
+}
+
+main {
+  position: relative;
+  background-color: black;
+}
+
+#navigation {
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#logoNav {
+margin-left: 0.7rem;
+}
+
+#logoNav img {
+width: 3.5rem;
+cursor: pointer;
+height: auto;
+}
+
+#logoNav img :hover{
+box-shadow: 0 0 20px rgba(72, 21, 123, 0.984);
+}
+
+#menuNav {
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: end;
+}
+
+#menu {
+display: flex;
+word-wrap: break-word;
+}
+
+#menu li {
+margin-right: 3rem;
+text-align: center;
+white-space: nowrap;
+}
+
+#menu li a{
+font-size: 1.5rem;
+font-family: 'Bebas Neue', cursive;
+text-
+}
+
+#menu li a:hover {
+color:rgb(90, 79, 219);
+}
+
+/* main section of the contact page */
+
+#front {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60rem;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#fronttext {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    padding: 2rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+form {
+    margin: 3rem;
+    border: 1px solid blue;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    width: 35%;
+    box-shadow: 0 0 200px rgba(48, 107, 250, 0.76);
+}
+
+#email {
+    height: 2rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+#subject {
+    height: 2rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+#contactmessage {
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 25rem;
+    margin-top: 1.5rem;
+}
+
+#sendbutton {
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 2rem;
+    width: 30%;
+    height: 2rem;
+    font-size: 1.3rem;
+    color: #2b2ba5;
+}
+
+/* footer design */
+
+#footer {
+    width:100%;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftfooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: end;
+    padding: 1rem;
+}
+
+#rightfooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#contactinfo {
+    color: white;
+   font-size: 1.5rem;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.footermail {
+    font-family: 'Anek Tamil', sans-serif;
+    color: white;
+    font-size: 1rem;
+    padding: 0.05rem;
+}
+
+#rightfooter a {
+    height: 3rem;
+}
+
+#rightfooter img {
+    height: 100%;
+}
