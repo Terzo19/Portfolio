@@ -384,12 +384,12 @@ main {
 
 #leftfooter span {
     color: white;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    font-family: 'Bebas Neue', cursive;
 }
 
 #rightfooter a {
-    height: 3rem;
+    height: 2.5rem;
 }
 
 #rightfooter img {
@@ -401,5 +401,15 @@ main {
     .title {
           margin: 1rem;
           font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #leftfooter span {
+        font-size: 0.8rem;
+    }
+
+    #rightfooter a {
+        height: 1.9rem;
     }
 }
