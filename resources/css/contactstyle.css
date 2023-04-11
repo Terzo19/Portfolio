@@ -62,8 +62,13 @@ text-
 
 #menu li a:hover {
 color:rgb(90, 79, 219);
-}
+} 
 
+@media only screen and (max-width: 470px){
+   #menu { 
+    display:none;
+   }
+}
 /* main section of the contact page */
 
 #front {
@@ -176,4 +181,14 @@ form {
 
 #rightfooter img {
     height: 100%;
+}
+
+@media only screen and (max-width: 750px){
+    #contactinfo, .footermail {
+        font-size: 0.8rem;
+    }
+
+    #rightfooter a {
+        height: 1.9rem;
+    }
 }
