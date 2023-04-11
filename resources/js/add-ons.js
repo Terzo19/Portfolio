@@ -6,3 +6,4 @@ Array.from(buttonTarget).forEach(element => {
         element.style.backgroundColor = 'black';
     })
 })
+
