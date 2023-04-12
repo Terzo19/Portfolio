@@ -69,7 +69,16 @@ color:rgb(90, 79, 219);
 
 @media only screen and (max-width: 470px){
    #menu { 
-    display:none;
+       display:none;
+   }
+   header {
+       height: 4rem;
+   }
+   #logoNav img {
+       width: 3rem;
+   }
+   main {
+       top: 4rem;
    }
 }
 /* main section of the contact page */
@@ -257,5 +266,11 @@ textarea {
 
     #rightfooter a {
         height: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #footer {
+        top: 4rem;
     }
 }
