@@ -7,3 +7,8 @@ Array.from(buttonTarget).forEach(element => {
     })
 })
 
+let sendButton = document.getElementById("sendbutton");
+
+sendButton.onclick = function () {
+    sendButton.style.backgroundColor = 'black';
+}

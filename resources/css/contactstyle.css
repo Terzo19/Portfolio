@@ -10,7 +10,10 @@ header {
 main {
   position: relative;
   background-color: black;
+  position: relative;
+  top: 5rem;
 }
+
 
 #navigation {
 height: 100%;
@@ -91,7 +94,6 @@ color:rgb(90, 79, 219);
 
 form {
     margin: 3rem;
-    border: 1px solid blue;
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -99,36 +101,99 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
     border-radius: 0.5rem;
-    width: 35%;
+    width: 45%;
     box-shadow: 0 0 200px rgba(48, 107, 250, 0.76);
 }
 
 #email {
     height: 2rem;
-    width: 20rem;
+    width: 60%;
     margin: 1rem;
 }
 
 #subject {
     height: 2rem;
-    width: 20rem;
+    width: 60%;
     margin: 1rem;
 }
 
 #contactmessage {
     margin-bottom: 1rem;
-    width: 25rem;
-    height: 25rem;
+    width: 75%;
+    height: 18rem;
     margin-top: 1.5rem;
 }
 
 #sendbutton {
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 2rem;
-    width: 30%;
+    width: 20%;
     height: 2rem;
     font-size: 1.3rem;
-    color: #2b2ba5;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 985px){
+    form{
+        width: 70%;
+    }
+    #fronttext {
+        margin: 2rem;
+        font-size: 4rem;
+        padding: 0;
+    }
+    #labelOne, #labelTwo {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #email, #subject {
+        height: 1.5rem;
+        width: 70%;
+    }
+    #contactmessage {
+        width: 75%;
+        height: 15rem;
+        font-size: 0.8rem;
+    }
+    #sendbutton {
+        width: 20%;
+        height: 1.9rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    form{
+        width: 85%;
+    }
+    #fronttext {
+        margin: 1rem;
+        font-size: 3rem;
+        padding: 0;
+        text-align: center;
+    }
+    #labelOne, #labelTwo {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    #email, #subject {
+        height: 1.3rem;
+        width: 75%;
+    }
+    #contactmessage {
+        width: 83%;
+        height: 12.5rem;
+        font-size: 0.65rem;
+    }
+    #sendbutton {
+        width: 25%;
+        height: 1.6rem;
+        font-size: 1rem;
+    }
 }
 
 /* footer design */
@@ -139,6 +204,8 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: 5rem;
 }
 
 #leftfooter {
